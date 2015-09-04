@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource 
+		name = "jdbc/oracle"
+		auth = "Contanier"
+		type = "javax.sql.DataSource"
+		driverClassName = "oracle.jdbc.OracleDriver"
+		url = "jdbc:oracle:thin:@192.168.10.143:3001:orcl"
+		username = "MOF"
+		password = "mof"
+		maxActive = "1"
+		maxIdle = "1"
+		maxWait = "-1" 
+	/>
+</Context>
